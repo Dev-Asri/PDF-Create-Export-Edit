@@ -3,6 +3,7 @@ import os
 import sys
 import tkinter as tk
 from tkinter import filedialog, messagebox, ttk
+import fitz
 from PIL import Image, ImageTk
 from .settings import RESIMLER_DIR
 from .translations import _t, _current_lang, _set_lang, restart_app
